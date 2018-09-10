@@ -24,7 +24,8 @@ pipenv install
 ```
 python3 ./generate_aws-nuke_config.py
 ```
-5. Remove all resources except those stated as in compliant by an AWS Config rule
+5. Remove all resources except those stated as in compliant by an AWS Config rule.
+
 To see how to have aws-nuke running see the doc online
 ```
 ./aws-nuke -c config.yaml 
