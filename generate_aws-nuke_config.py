@@ -25,7 +25,7 @@ def get_compliant_resources():
   return response["EvaluationResults"]
 
 # Read the template file
-with open("config_template.yaml", 'r') as stream:
+with open("config_template_cr_labs.yaml", 'r') as stream:
     try:
         configs = yaml.load(stream)
     except yaml.YAMLError as exc:
